@@ -1,0 +1,5 @@
+HTTP/1.1 200
+Access-Control-Allow-Origin: *
+Content-Type: application/json;charset=UTF-8
+
+[{"name":"IBE","percentual":88}, {"name":"IBPJ","percentual":91}, {"name":"SSA","percentual":75}, {"name":"IBPF","percentual":78}, {"name":"WAY","percentual":63}]

@@ -1,0 +1,5 @@
+HTTP/1.1 200
+Access-Control-Allow-Origin: *
+Content-Type: application/json;charset=UTF-8
+
+{ "phaseList": [{ "phase": "RNs Estimativa Inicial", "done": 21, "inProgress": 0, "backlog": 31, "pending": 2, "total": 54 }, { "phase": "DDRs Aprovados (segunda medição)", "done": 78, "inProgress": 22, "backlog": 3, "pending": 15, "total": 118 }, { "phase": "Aferições - Waterfall", "done": 133, "inProgress": 29, "backlog": 1, "pending": 83, "total": 246 }, { "phase": "Aferições – Agile", "done": 3, "inProgress": 0, "backlog": 0, "pending": 0, "total": 3 } ], "listTotals": { "phase": "Visão Geral do Escritório de Métricas", "done": 235, "inProgress": 51, "backlog": 35, "pending": 100, "total": 421}}

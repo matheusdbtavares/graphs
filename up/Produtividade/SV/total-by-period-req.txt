@@ -1,0 +1,4 @@
+GET /s2m-project-productivity-management/v1/total-by-period HTTP/1.1
+Connection: Keep-Alive
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+User-Agent: Java/1.8.0_102

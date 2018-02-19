@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Resumo da Operação</title>
+		<script src="jquery-3.2.1.min.js"></script>
+		<script src="mocks.js" type="text/javascript"></script>
+		<link href="resumoOperacao.css" type="text/css" rel="stylesheet" media="all"/>
+	</head>
+	<body>
+		<div class="page">
+			<div class="globalTitle">
+				<p>S2M Produtividade</p>
+			</div>
+			<div class="page2">
+				<div class="simpleTitle">
+					<p>Resumo da Operação</p>
+				</div>
+				<table id="tbResumoOperacao">
+					<thead>
+						<tr>
+							<th class="phase" colspan="2">Fases</th>
+							<th>Medição à Iniciar</th>
+							<th>Medição em Andamento</th>
+							<th>Medição Pendente</th>
+							<th>Medição Concluída</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td colspan="6" class="error">Não foi possível acessar o servidor.</td>
+						</tr>
+					</tbody>
+					<tfoot>
+					</tfoot>
+				</table>
+				<br/>
+			</div>
+		</div>
+		<script src="resumoOperacao.js" type="text/javascript"></script>
+	</body>
+</html>
